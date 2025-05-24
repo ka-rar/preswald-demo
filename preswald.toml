@@ -1,0 +1,20 @@
+[project]
+title = "High-Earning Roles Explorer"
+version = "0.1.0"
+port = 8501
+slug = "salary-explorer"  
+entrypoint = "hello.py"    
+
+[branding]
+name = "Salary Explorer"
+logo = "images/money.png"
+favicon = "images/favicon.ico"
+primaryColor = "#1976D2"
+
+[data.salary]
+type = "csv"
+path = "data/Average_Salary_by_Job_Classification.csv"
+
+[logging]
+level = "INFO"  
+format = "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
